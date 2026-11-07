@@ -2,6 +2,17 @@
 
 A custom CodeMirror 6 theme designed for VizHub, providing a modern and visually appealing syntax highlighting experience.
 
+## Development and supported scope
+
+The package name is **`@vizhub/codemirror-theme`**. Its checked-in source is [`src/index.ts`](src/index.ts) and [`src/colors.ts`](src/colors.ts). Build the CommonJS and ESM outputs with:
+
+```bash
+npm ci
+npm run build
+```
+
+**Test status:** `npm test` in the current package is a placeholder that deliberately exits with an error. There is no verified automated test suite to run; use an editor integration for visual review and check the exported symbols before publishing examples. This theme does not itself supply CodeMirror's editor, language extensions or collaboration backend.
+
 ## Installation
 
 ```bash
